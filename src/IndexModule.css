@@ -1,5 +1,15 @@
-
-input[type=text], select {
+input[type='text'],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type='tel'],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -9,9 +19,9 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type='submit'] {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #1846c5;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -20,13 +30,13 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type='submit']:hover {
   background-color: #45a049;
 }
 
 div {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #81a6eb;
   padding: 20px;
 }
 ul {
@@ -34,6 +44,8 @@ ul {
   margin: 0;
   padding: 0;
 }
-.button_delete{
+.button_delete {
   margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(179, 75, 75);
 }

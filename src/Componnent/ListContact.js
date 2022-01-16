@@ -1,14 +1,14 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const ListContact = ({ contacts, onRemoveContact }) => (
   <ul>
-    {contacts.map((contact) => (
+    {contacts.map(contact => (
       <li key={contact.id}>
-        {contact.name + ":" + contact.number}
+        {contact.name + ':' + contact.number}
         {
           <button
-            className ='button_delete'
+            className="button_delete"
             type="button"
             name="delete"
             onClick={() => onRemoveContact(contact.id)}
@@ -20,6 +20,7 @@ const ListContact = ({ contacts, onRemoveContact }) => (
     ))}
   </ul>
 );
+console.log(ListContact.contacts);
 
 ListContact.propTypes = {
   onRemoveContact: PropTypes.func.isRequired,
@@ -28,7 +29,7 @@ ListContact.propTypes = {
       id: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       number: PropTypes.string.isRequired,
-    })
+    }),
   ),
 };
 export default ListContact;
