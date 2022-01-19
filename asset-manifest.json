@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/VasylShcherbyna/react/static/css/main.5c8c7564.chunk.css",
-    "main.js": "/VasylShcherbyna/react/static/js/main.227136e4.chunk.js",
-    "main.js.map": "/VasylShcherbyna/react/static/js/main.227136e4.chunk.js.map",
-    "runtime-main.js": "/VasylShcherbyna/react/static/js/runtime-main.7fd3f7f3.js",
-    "runtime-main.js.map": "/VasylShcherbyna/react/static/js/runtime-main.7fd3f7f3.js.map",
-    "static/js/2.c527586c.chunk.js": "/VasylShcherbyna/react/static/js/2.c527586c.chunk.js",
-    "static/js/2.c527586c.chunk.js.map": "/VasylShcherbyna/react/static/js/2.c527586c.chunk.js.map",
-    "index.html": "/VasylShcherbyna/react/index.html",
-    "static/css/main.5c8c7564.chunk.css.map": "/VasylShcherbyna/react/static/css/main.5c8c7564.chunk.css.map",
-    "static/js/2.c527586c.chunk.js.LICENSE.txt": "/VasylShcherbyna/react/static/js/2.c527586c.chunk.js.LICENSE.txt"
+    "main.css": "/react/static/css/main.5c8c7564.chunk.css",
+    "main.js": "/react/static/js/main.227136e4.chunk.js",
+    "main.js.map": "/react/static/js/main.227136e4.chunk.js.map",
+    "runtime-main.js": "/react/static/js/runtime-main.ec8ae84e.js",
+    "runtime-main.js.map": "/react/static/js/runtime-main.ec8ae84e.js.map",
+    "static/js/2.c527586c.chunk.js": "/react/static/js/2.c527586c.chunk.js",
+    "static/js/2.c527586c.chunk.js.map": "/react/static/js/2.c527586c.chunk.js.map",
+    "index.html": "/react/index.html",
+    "static/css/main.5c8c7564.chunk.css.map": "/react/static/css/main.5c8c7564.chunk.css.map",
+    "static/js/2.c527586c.chunk.js.LICENSE.txt": "/react/static/js/2.c527586c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7fd3f7f3.js",
+    "static/js/runtime-main.ec8ae84e.js",
     "static/js/2.c527586c.chunk.js",
     "static/css/main.5c8c7564.chunk.css",
     "static/js/main.227136e4.chunk.js"
