@@ -27,31 +27,29 @@ export default function ContactForm({ onAddContact }) {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        First Name
+        Dane do faktury klienta
         <input
           type="text"
           name="name"
           pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
-          title="The name can only contain letters, an apostrophe, a dash, and spaces. for instance Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan и т. п."
+          title="Data can only contain letters, apostrophes, dashes and spaces."
           required
           value={name}
           onChange={handleNameChange}
         />
       </label>
       <label>
-        Salary amount
+        Numer faktury
         <input
           type="tel"
           name="number"
-          // pattern="d{1,3}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
-          title="Currency must consist of numbers and may contain spaces, dashes, parentheses "
+          title="The number must consist of numbers and may contain spaces, dashes, parentheses "
           required
           value={number}
           onChange={handleNumberChange}
         />
-        
       </label>
-      <button type="submit">Add contact</button>
+      <button type="submit">Dodać fakturę</button>
     </form>
   );
 }

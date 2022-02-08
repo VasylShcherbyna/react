@@ -22,8 +22,10 @@ function App() {
       contact => contact.name.toLowerCase() === taskNameNormalized,
     );
 
-    if (task.name.length === 0) {
-      alert(`${task.name} Pola muszą być wypełnione!`);
+    if (searchSameName) {
+      alert(`${task.name} is already in contacts`);
+    } else if (task.name.length === 0) {
+      alert('Fields must be filled!');
     } else {
       const contact = {
         ...task,

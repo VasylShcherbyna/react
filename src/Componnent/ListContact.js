@@ -13,7 +13,7 @@ const ListContact = ({ contacts, onRemoveContact }) => (
             name="delete"
             onClick={() => onRemoveContact(contact.id)}
           >
-            delete
+            Usunąć fakturę
           </button>
         }
       </li>

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export default function FilterContacts({ value, onChangeFilter }) {
   return (
     <div>
-      Find  by name
+      Znaleźć fakturę
       <input
         type="text"
         value={value}
